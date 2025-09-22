@@ -1,0 +1,6 @@
+VBoxManage modifyvm "Tiger" --cpu-profile "Intel Xeon X5482 3.20GHz"
+VBoxManage setextradata "Tiger" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "MacBookPro3,1"
+VBoxManage setextradata "Tiger" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "Tiger" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata "Tiger" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "Tiger" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
