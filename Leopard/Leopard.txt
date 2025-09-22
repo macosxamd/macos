@@ -1,0 +1,6 @@
+VBoxManage modifyvm "Leopard" --cpu-profile "Intel Xeon X5482 3.20GHz"
+VBoxManage setextradata "Leopard" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "UseARealMacIdentifier"
+VBoxManage setextradata "Leopard" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
+VBoxManage setextradata "Leopard" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
+VBoxManage setextradata "Leopard" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
+VBoxManage setextradata "Leopard" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
