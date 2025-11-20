@@ -1,0 +1,6 @@
+--------- Mac OS X Tiger 10.4  NOTES ----------------------
+
+Use ICH6 IDE Storage Controller for CD-ROM and HDD units.
+Use USB Controller as OHCI (USB 1.1)
+
+------------------------------------------------------------
