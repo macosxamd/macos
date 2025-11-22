@@ -1,0 +1,9 @@
+VBoxManage modifyvm Tiger --mouse usb
+VBoxManage modifyvm Tiger --firmware efi32
+VBoxManage modifyvm Tiger --cpu-profile 'Intel Pentium 4 3.00GHz'
+VBoxManage modifyvm Tiger --cpuidset 00000000 00000004 756e6547 6c65746e 49656e69
+VBoxManage modifyvm Tiger --cpuidset 00000001 00000f43 00020800 fbffffff ffffffff
+VBoxManage modifyvm Tiger --cpuidset 80000001 00000000 00000000 ffffffff ffffffff
+VBoxManage setextradata Tiger VBoxInternal/Devices/efi/0/Config/DmiBIOSVersion EFI32..Virtual.Box
+VBoxManage setextradata Tiger VBoxInternal/Devices/efi/0/Config/DmiUseHostInfo 0
+VBoxManage setextradata Tiger VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC 1
